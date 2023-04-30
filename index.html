@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hanna Kavaleva">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>HW4: Calorie Tracker</title>
+</head>
+
+<body>
+    <h1>Track Calories</h1>
+    <form>
+        <label for="food-name">Food Name:</label>
+        <input type="text" id="food-name" required><br>
+        <label for="calories">Number of Calories:</label>
+        <input type="number" id="calories" required><br>
+        <button type="button" id="submit">Submit</button>
+        <br>
+        <br>
+        <br>
+    </form>
+    <div><label for="total-calories">Total Calories:</label>
+        <input type="text" id="total-calories">
+    </div>
+    <div id="food-list">
+        <div class="food-item">
+            <span>Banana</span>
+            <span>100</span>
+        </div>
+        <div class="food-item">
+            <span>Hot Dog</span>
+            <span>470</span>
+        </div>
+    </div>
+</body>
+</html>
